@@ -1,3 +1,5 @@
+import React from "react";
+
 function HadithCard() {
   return (
     <div className="hadith-card">
@@ -5,3 +7,5 @@ function HadithCard() {
     </div>
   );
 }
+
+export default HadithCard;

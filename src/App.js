@@ -1,16 +1,11 @@
-import React, { useState } from 'react';
-import QuranCard from './QuranCard';
-import HadithCard from './HadithCard';
-import SolahTimeCard from './SolahTimeCard';
+import React from 'react';
+import './style.css';
+import IslamicFeeds from './IslamicFeeds';
 
-function IslamicFeeds() {
+export default function App() {
   return (
     <div>
-      <QuranCard />
-      <HadithCard />
-      <SolahTimeCard />
+      <IslamicFeeds />
     </div>
   );
 }
-
-export default IslamicFeeds;
